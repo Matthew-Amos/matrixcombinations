@@ -1,5 +1,5 @@
 # Constants
-mydir <- "/Users/mamos/programming/R/Misc/DF Matrix/"
+mydir <- "~/programming/R/Misc/DF Matrix/"
 
 myfunction <- function(df1, df2, ...) {
   adjRet1 <- log(df1[1:(nrow(df1) - 1),8] / df1[2:nrow(df1),8])
